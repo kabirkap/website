@@ -59,6 +59,11 @@ background-color: #D6F8B8;
 font-size: 1rem;
 }
 
+.img{
+max-width: auto;
+height: auto;
+}
+
 .container1{
   position: relative;
 }
@@ -222,7 +227,7 @@ height: auto;}
 
 .centerpos{
   position: relative;
-  left: -11%;
+  left: -9%;
 }
 
 }
