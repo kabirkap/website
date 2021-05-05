@@ -1,0 +1,228 @@
+h2{
+  font-family: 'Oswald', sans-serif;
+  padding-bottom: 2%;
+}
+
+table{
+table-layout: fixed;
+width: 100%;
+}
+
+.navbar{
+  padding: 0 0;
+  background-color: #FFFDF6;
+}
+
+.nav-link{
+  color: black;
+}
+
+.navbar-brand{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 2rem;
+}
+
+.nonbrand{
+  font-family: 'Lexend Mega', sans-serif;
+}
+
+.titlepage{
+  padding-bottom: 6.75%;
+  margin-right: 0;
+  font-family: 'Oswald', sans-serif;
+  background-color: #BCEB3C;
+}
+
+.titleimage{
+    padding-right:0;
+}
+
+.titletext1{
+  position: absolute;
+  top: 30%;
+  right: 30%;
+  color: #fff;
+}
+
+.titletext2{
+  position: absolute;
+  top: 40%;
+  left: 26.5%;
+  color: #fff;
+}
+
+.infocard{
+padding-left: 10%;
+padding-top: 4.1%;
+padding-bottom: 4.1%;
+background-color: #D6F8B8;
+font-size: 1rem;
+}
+
+.container1{
+  position: relative;
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  z-index: -1;
+}
+
+.column1{
+  padding-left: 0;
+  text-align: center;
+  padding-right: 0;
+}
+
+.nav{
+  width: 100%;
+  height: auto;
+}
+
+.about-section{
+  text-align: center;
+  padding: 3% 5% 5% 2%;
+  background-color: #FFFDF6;
+}
+
+.about-text{
+  padding-top: 3%;
+  font-family: 'Lexend Mega', sans-serif;
+}
+
+.review-section{
+background-color: #BCEB3C;
+font-family: 'Oswald', sans-serif;
+text-align: center;
+padding-top: 2%;
+padding-bottom: 6.5%;
+}
+
+.review1{
+  background: #D6F8B8;
+}
+
+.review2{
+  background-color: #C9F658;
+}
+
+.review3{
+  background-color: #C4F0C5;
+}
+
+.reviewfont{
+  color: black;
+}
+
+.itemheight{
+  height: 570px;
+}
+
+ .vimage{
+width: 100%;
+height: auto;}
+
+.roundimage{
+  border-radius: 50%;
+}
+
+.centerpos{
+  position: relative;
+  left: 32%;
+  top: 5%;
+}
+
+.room-section{
+  text-align: center;
+  background-color: #FFFDF6;
+  padding-top: 3%;
+  padding-bottom: 6.5%;
+}
+
+.blackicon{
+  background-color: black;
+}
+
+.amenities-section{
+  text-align: center;
+  background-color: #C9F658;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.amenities-image{
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.faq-section{
+  background-color: #FFFDF6;
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 6.5%;
+}
+
+.faq-text{
+  font-family: 'Lexend Mega', sans-serif;
+  text-align: left;
+}
+
+.contact-section{
+  text-align: center;
+  background-color: #C9F658;
+  padding-top: 3%;
+  padding-bottom: 2.5%;
+}
+
+.fab{
+  font-size: 2.5rem;
+  padding-right: 1%;
+}
+
+@media screen and (max-width: 767px) {
+
+.vimage{
+  width: 0;
+  height: 0;
+}
+}
+
+@media screen and (max-width: 756px) {
+
+.navbar{
+  text-align: center;
+}
+}
+
+@media (max-width: 992px){
+
+  .centerpos{
+    position: relative;
+    left: 22%;
+  }
+}
+
+@media (max-width: 768px){
+  .centerpos{
+    position: relative;
+    left: 11%;
+  }
+}
+
+@media (max-width: 472px){
+  .centerpos{
+  position: relative;
+  left:5%;
+  }
+}
+
+@media (max-width: 377px){
+
+.centerpos{
+  position: relative;
+  left: -11%;
+}
+
+}
