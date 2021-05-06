@@ -2,7 +2,7 @@ var app = document.getElementById('app2');
 
 var typewriter = new Typewriter(app2, {
   loop: false,
-  delay: 45,
+  delay: 40,
   autoStart: true,
   cursor: '█',
   strings: [""]
@@ -11,11 +11,11 @@ var typewriter = new Typewriter(app2, {
 typewriter
   .changeDeleteSpeed(1)
   .typeString("cat firstIntro.txt")
-  .pauseFor(6200)
+  .pauseFor(5500)
   .deleteAll(1)
   .pauseFor(1000)
   .typeString("cat secondIntro.txt")
-  .pauseFor(15000)
+  .pauseFor(9500)
   .deleteAll(1)
-  .pauseFor(1000)
+  .pauseFor(2000)
   .typeString("cat links.txt")
