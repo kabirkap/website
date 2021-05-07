@@ -223,11 +223,11 @@ padding-left: 15px;
   left: calc(-1 * var(--borderWidth));
   height: calc(100% + var(--borderWidth) * 2);
   width: calc(100% + var(--borderWidth) * 2);
-  background: linear-gradient(60deg, #051937,  #008793, #00bf72);
+  background: linear-gradient(144deg, #051937, #33345A, #62507D, #936E9E ,#766EB1, #008793, #00A986, #00bf72);
   border-radius: calc(2 * var(--borderWidth));
   z-index: -1;
 	background-size: 300% 300%;
-  animation: animatedgradient 3s ease alternate infinite;
+  animation: animatedgradient 8s ease alternate infinite;
 }
 
 @keyframes animatedgradient {
