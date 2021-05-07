@@ -205,8 +205,8 @@ pre {
 }
 
 .with-linear-gradient{
-	--borderWidth:7px;
-padding-left: 15px;
+ --borderWidth:7px; 
+ padding-left: 15px;
  margin-left: -15px;
  margin-right: 15px;
  height: 475px;
@@ -218,7 +218,7 @@ padding-left: 15px;
 
 .with-linear-gradient:after {
   content: '';
-	position: fixed;
+  position: relative;
   top: calc(-1 * var(--borderWidth));
   left: calc(-1 * var(--borderWidth));
   height: calc(100% + var(--borderWidth) * 2);
