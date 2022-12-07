@@ -20,5 +20,6 @@ typewriter
   .pauseFor(3000)
   .typeString('Find me online: <br />')
   .pauseFor(300)
+  .typeString('<a href="https://www.linkedin.com/in/kabir-kapoor-742828207/" target="_blank" rel="noopener noreferrer">LinkedIn</a> <br />')
   .typeString('<a href="https://github.com/kabirkap" target="_blank" rel="noopener noreferrer">GitHub</a> <br />')
   .typeString('<a href="https://www.instagram.com/kuh_beer/" target="_blank" rel="noopener noreferrer">Instagram</a> <br />')
